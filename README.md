@@ -14,6 +14,7 @@ The program allows the user to choose between these scheduling types and provide
 
 - [Features](#features)
 - [Getting Started](#getting-started)
+  - [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Scheduling Algorithms Explained](#scheduling-algorithms-explained)
   - [First Come First Serve (FCFS)](#first-come-first-serve-fcfs)
@@ -32,21 +33,45 @@ The program allows the user to choose between these scheduling types and provide
 
 ## Getting Started
 
-### Prerequisites
+### Installation
 
-- **C++ Compiler**: Ensure you have a C++ compiler installed, such as GCC or Clang.
+To install and run the project locally, follow these steps:
 
-### Compilation
+#### Step 1: Clone the Repository
 
-To compile the program, use the following command:
+Clone this GitHub repository to your local machine using the following command:
+
+```bash
+git clone https://github.com/Aarav-Shah-175/CPU_Scheduling.git
+```
+
+#### Step 2: Navigate to the Project Directory
+
+Change into the project directory:
+
+```bash
+cd CPU_Scheduling
+```
+
+#### Step 3: Compile the Program
+
+Use the following command to compile the C++ program:
 
 ```bash
 g++ -o Scheduling Scheduling.cpp
 ```
 
-### Running the Program
+This will generate an executable file called `Scheduling`.
 
-Once compiled, you can run the executable:
+Alternatively, if you have `make` installed, you can use the provided `Makefile`:
+
+```bash
+make
+```
+
+#### Step 4: Run the Program
+
+After compilation, run the program using:
 
 ```bash
 ./Scheduling
@@ -126,5 +151,5 @@ Process ID    Start Time    End Time
 2             4             7
 3             7             9
 ```
--------------------------------------
 
+------------------------------
