@@ -41,7 +41,7 @@ The program allows the user to choose between these scheduling types and provide
 To compile the program, use the following command:
 
 ```bash
-g++ -o scheduling_simulator scheduling_simulator.cpp
+g++ -o Scheduling Scheduling.cpp
 ```
 
 ### Running the Program
@@ -49,7 +49,7 @@ g++ -o scheduling_simulator scheduling_simulator.cpp
 Once compiled, you can run the executable:
 
 ```bash
-./scheduling_simulator
+./Scheduling
 ```
 
 ## How to Use
